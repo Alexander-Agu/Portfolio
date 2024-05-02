@@ -1,0 +1,52 @@
+/* >> RESET */
+*,
+*::before,
+*::after  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* >> VARIABLES */
+:root {
+  /* > Colors */
+  --LINK-HC: #4ef037;
+
+  /* > Fonts & FontSize */
+  --LINK-FS: 20px;
+
+  /* > Margin & Padding */
+  --HEADER-PAD: 16px;
+
+  /* > Width & Height */
+  --HEADER-HGT: 65px;
+}
+
+/* >> GENERAL STYLES */
+html  {
+  scroll-behavior: smooth;
+}
+
+/* >> HEADER STYLES */
+.header {
+  height: var(--HEADER-HGT);
+  padding: var(--HEADER-PAD);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: var(--LINK-HC);
+  text-decoration: none;
+  font-size: var(--LINK-FS);
+}
+
+.nav-list {
+
+
+  display: flex;
+}
+
+.
