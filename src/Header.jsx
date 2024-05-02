@@ -3,8 +3,13 @@ import React from 'react'
 function Header(){
     return(
         <>
+<<<<<<< HEAD
             <header style={styles.header}>
                 <div style={styles.logo}>
+=======
+            <header className='header'>
+                <div className="logo">
+>>>>>>> 917428aab53561c75d1cc189dd470afe88b28550
                     <a href="#">
                         <h2 className='logo-h2'>TherealAgu.dev</h2>
                     </a>
@@ -13,7 +18,11 @@ function Header(){
                 <nav className='navbar'>
                     <ul className='nav-list'>
                         <li className='nav-items'>
+<<<<<<< HEAD
                             <a href="#" className='home'>Home</a>
+=======
+                            <a href="#">Home</a>
+>>>>>>> 917428aab53561c75d1cc189dd470afe88b28550
                         </li>
                         <li className='nav-items'>
                             <a href="#about">About</a>
@@ -25,6 +34,7 @@ function Header(){
     )
 }
 
+<<<<<<< HEAD
 
 
 const styles = {
@@ -42,4 +52,6 @@ logo    : {
     fontSize: 20,
 }}
 
+=======
+>>>>>>> 917428aab53561c75d1cc189dd470afe88b28550
 export default Header

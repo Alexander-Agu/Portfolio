@@ -47,6 +47,7 @@ html  {
 
 
   display: flex;
+<<<<<<< HEAD
   gap: 1rem;
 }
 
@@ -61,3 +62,8 @@ html  {
 .home a {
   background: var(--LINK-HC);
 }
+=======
+}
+
+.
+>>>>>>> 917428aab53561c75d1cc189dd470afe88b28550
