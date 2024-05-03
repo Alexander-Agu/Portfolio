@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Header(){
     return(
         <header className='header'>
@@ -9,7 +10,9 @@ function Header(){
                 </a>
             </div>
 
+            
             <nav className='navbar'>
+
                 <ul className='nav-list'>
                     <li className='nav-items'>
                         <a href="#" className='nav-links'>Home</a>
@@ -17,7 +20,17 @@ function Header(){
                     <li className='nav-items'>
                         <a href="#about" className='nav-links'>About</a>
                     </li>
+                    <li className='nav-items'>
+                        <a href="#about" className='nav-links'>About</a>
+                    </li>
+                    <li className='nav-items'>
+                        <a href="#about" className='nav-links'>About</a>
+                    </li>
+                    <li className='nav-items'>
+                        <a href="#about" className='nav-links'>About</a>
+                    </li>
                 </ul>
+                
             </nav>
         </header>
     )
