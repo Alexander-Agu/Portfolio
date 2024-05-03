@@ -2,20 +2,20 @@ import React from 'react'
 
 function Header(){
     return(
-        <header style={styles.header}>
-            <div>
-                <a href="#" style={styles.logo}>
-                    <h2>Alexanderagu.dev</h2>
+        <header className='header'>
+            <div className='logo'>
+                <a href="#">
+                    <h2 className='logo-h2'>Alexanderagu.dev</h2>
                 </a>
             </div>
 
-            <nav>
-                <ul style={styles.navList}>
-                    <li style={styles.navItems}>
-                        <a href="#" style={styles.navLinks}>Home</a>
+            <nav className='navbar'>
+                <ul className='nav-list'>
+                    <li className='nav-items'>
+                        <a href="#" className='nav-links'>Home</a>
                     </li>
-                    <li style={styles.navItems}>
-                        <a href="#about" style={styles.navLinks}>About</a>
+                    <li className='nav-items'>
+                        <a href="#about" className='nav-links'>About</a>
                     </li>
                 </ul>
             </nav>
@@ -24,42 +24,7 @@ function Header(){
 }
 
 const styles = {
-    header : {
-        height: 65,
-        padding: 16,
 
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-    },
-
-    logo    : {
-        color: "#4ef037",
-        textDecoration: "none",
-        fontSize: 20,
-    },
-
-    navbar  : {
-
-    },
-
-    navList : {
-
-        display: "flex",
-        justifyContent: "spaceBetween",
-        alignItems: "center",
-        gap: 12,
-    },
-
-    navItems    : {
-        listStyle: "none",
-    },
-
-    navLinks    : {
-        textDecoration: "none",
-        color: "black",
-        fontSize: 18,
-    }
 }
 
 export default Header

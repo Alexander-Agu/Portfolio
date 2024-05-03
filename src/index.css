@@ -1,3 +1,8 @@
+/* >> FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caprasimo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Protest+Revolution&family=Rasa:ital,wght@0,300..700;1,300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Poetsen+One&display=swap');
+
 /* >> RESET */
 *,
 *::before,
@@ -14,12 +19,14 @@
 
   /* > Fonts & FontSize */
   --LINK-FS: 20px;
+  --Link-FF: "Roboto", sans-serif;
+  --LOGO-FS: "Jersey 25", sans-serif;
 
   /* > Margin & Padding */
   --HEADER-PAD: 16px;
 
   /* > Width & Height */
-  --HEADER-HGT: 65px;
+  --HEADER-HGT: 70px;
 }
 
 /* >> GENERAL STYLES */
@@ -37,17 +44,20 @@ html  {
   align-items: center;
 }
 
-.logo a {
-  color: var(--LINK-HC);
+.logo a{
   text-decoration: none;
+  color: var(--LINK-HC);
   font-size: var(--LINK-FS);
+  font-family: var(--LOGO-FS);
+  letter-spacing: 2px;
 }
 
 .nav-list {
-
+  font-family: var(--Link-FF);
 
   display: flex;
-<<<<<<< HEAD
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -55,15 +65,26 @@ html  {
   list-style: none;
 }
 
-.home {
+.nav-items:first-child a{
+  color: black;
+  font-weight: bolder;
+  color: green;
+  transition: 300ms;
+}
+.nav-items:first-child:hover a{
+  color: var(--LINK-HC);
+  transition: 300ms;
+}
+
+.nav-links:first-child  {
   text-decoration: none;
+  font-size: 18px;
 }
 
-.home a {
-  background: var(--LINK-HC);
+.nav-links  {
+  transition: 300ms;
 }
-=======
+.nav-links:hover  {
+  color: var(--LINK-HC);
+  transition: 300ms;
 }
-
-.
->>>>>>> 917428aab53561c75d1cc189dd470afe88b28550
